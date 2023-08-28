@@ -1,0 +1,30 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    height: 100%;
+    overflow-y: scroll;
+
+    align-items: center;
+    padding: 1rem;
+}
+
+main > app-card {
+    width: 30%;
+    height: 100%;
+    transition: ease-in-out 0.4s;
+}
+
+main > app-card:hover{
+    width: 31%;
+    height: 101%;
+}

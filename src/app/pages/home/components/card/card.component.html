@@ -1,0 +1,14 @@
+<div [ngStyle]="{'background-image': 'url(' + photo + ')' }">
+    <aside *ngIf="span != ''">
+        <span>{{span}}</span>
+    </aside>
+    <main>
+        <h1>{{title}}</h1>
+        
+        <article>
+            <div></div>
+            <p>{{[paragraph]}}</p>
+            <span>${{price}}</span>
+        </article>
+    </main>
+</div>
