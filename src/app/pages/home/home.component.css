@@ -25,6 +25,5 @@ main > app-card {
 }
 
 main > app-card:hover{
-    width: 31%;
-    height: 101%;
+    transform: scale(1.02);
 }
